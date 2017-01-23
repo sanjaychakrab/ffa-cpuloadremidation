@@ -1,0 +1,20 @@
+#README: cpuloadremidation 
+#################################################################################
+NOTE:
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ https://www.gnu.org/
+FireFirstAid is NOT RESPONSIBLE for any miscofigure or damage. 
+##################################################################################
+ # FFA-beta project's 'cpuloadremidation' . This is a beta testing. Use with caution.
+# FFA is part of FireFistAid and goal of this project to monitor and stabilise or fix the issue.
+# cpuloadremidation module is part of FFA. In short, it monitors the CPU load of the system and kill the process that taking the toll if the load goes beyond the system threshold limit. This will solely kill the high CPU load process. System information NOT obtain by custom facter. 
+The FireFirstAid Enterprise edition will use facter to obtain the system info. 
+Files:
+# ffainstall.py      --> install ffa settings
+# ffauninstall.py    --> uninstall ffa settings
+# startffa.sh        --> start the daemon
+# stopffa.sh         --> stop the ffa daemon
+# statusffa.sh	     --> status of the script
